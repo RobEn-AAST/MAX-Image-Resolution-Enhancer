@@ -1,0 +1,10 @@
+services:
+  image_enhancer:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: python app.py
+    volumes:
+      - .:/home/max/program
+    ports:
+      - "1234:5000"

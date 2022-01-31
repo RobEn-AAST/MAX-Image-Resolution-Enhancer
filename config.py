@@ -28,7 +28,7 @@ API_VERSION = '1.1.0'
 
 # default model
 MODEL_NAME = 'SRGAN'
-DEFAULT_MODEL_PATH = 'assets/SRGAN/model'
+DEFAULT_MODEL_PATH = '/home/max/assets/SRGAN/model'
 
 MODEL_META_DATA = {
     'id': 'max-image-resolution-enhancer',
